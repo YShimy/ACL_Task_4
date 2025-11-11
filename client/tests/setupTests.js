@@ -9,6 +9,8 @@ import { spawn } from 'child_process';
 import axios from 'axios';
 import httpAdapter from 'axios/lib/adapters/http.js';
 import dotenv from 'dotenv';
+// Ensure fetch exists for all tests (works in both jsdom and node envs)
+import 'cross-fetch/polyfill';
 
 jest.setTimeout(60000);
 

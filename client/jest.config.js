@@ -17,5 +17,5 @@ export default {
     '\\.(css|less|scss|sass)$': '<rootDir>/tests/styleMock.js'
   },
   setupFilesAfterEnv: ['<rootDir>/tests/setupTests.js'],
-  collectCoverage: false
+  collectCoverage: false,  
 };
